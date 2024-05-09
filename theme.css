@@ -1445,3 +1445,13 @@
       padding: 8px 16px;
       margin: 20px 16px 0;
   }
+
+.lookInverted_a299dc.colorBrand__27d57 {
+    color: var(--brand-experiment);
+    border: 1px solid #ffbff28f;
+     background-color: #191318;
+}
+
+.lookInverted_a299dc.colorBrand__27d57:hover {
+     background-color: #2b2129fd;
+}
