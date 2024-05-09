@@ -331,10 +331,6 @@
       border-color: #ffbff28a;
    background-color: #191318;
   }
-  
-  .repliedTextPreview__1a8a4{
-      border-color: #ffbff28a
-  }
   .reaction__4a43f{
     background-color: #191318;
     border-color: #ffbff2
@@ -1357,7 +1353,7 @@
   
   .repliedTextPreview__1a8a4.clickable__09456 {
       cursor: pointer;
-      color: #ffbff2
+      color: #d8d8d8
   }
   
   .colorBrand__9bb0f {
