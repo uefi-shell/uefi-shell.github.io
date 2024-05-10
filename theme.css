@@ -579,7 +579,7 @@
   
   .app_de4237 button {
       cursor: pointer;
-      background-color: #191318;
+      background-color: transparent;
   }
   
   .slateTextArea_b19976 {
@@ -1454,4 +1454,64 @@
 
 .lookInverted_a299dc.colorBrand__27d57:hover {
      background-color: #2b2129fd;
+}
+
+.theme-dark #vc-spotify-player {
+    background-color: #191318;
+    border: 1px solid #ffbff28f;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.theme-dark .bar_e58961, .theme-dark .markDash__54545 {
+    background-color: #191318;
+    border: 1px solid #ffbff28f;
+}
+
+.barFill__1f56b {
+    background: #ffbff2; 
+    height: 100%;
+}
+
+.newMessagesBar__8b272 {
+    height: 32px;
+    top: 0;
+    border: 1px solid #ffbff28f;
+    background-color: #191318;
+    box-shadow: var(--elevation-low);
+}
+
+.mediaBarProgress_a3b7f1 {
+    z-index: 3;
+    background-color: #ffbff28f
+    
+}
+.mediaBarProgress_a3b7f1:before, .mediaBarProgress_a3b7f1:after {
+    background-color: #ffbff28f
+}
+
+.videoButton__78017 {
+    margin-right: 8px;
+    color: #ffbff2;
+}
+.mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527 {
+    transform: scale(1);
+    background-color: #ffbff28f
+}
+
+.markup_a7e664 a {
+    color: #ffbff2!important;
+    word-break: break-word;
+    -webkit-text-decoration: var(--link-decoration);
+    text-decoration: var(--link-decoration);
+    cursor: pointer;
+}
+
+.wrapper__53064 {
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+    unicode-bidi: plaintext;
+    color: #d8d8d8;
+    background-color: #ffbff250
 }
